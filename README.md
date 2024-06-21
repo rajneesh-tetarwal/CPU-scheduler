@@ -38,7 +38,15 @@ RR assigns a fixed time quantum and cycles through processes. It ensures fair CP
 The main C++ program includes the implementation of all four scheduling algorithms, calculates their average waiting time and turnaround time, and determines the best algorithm based on performance.
 
 ## Python GUI using Tkinter
-The Python GUI is implemented using Tkinter, allowing users to input process details and visualize the results of different scheduling algorithms.
+To make the results more user-friendly, a GUI is implemented using Python's Tkinter library. The GUI allows users to input process details and view the results of different scheduling algorithms graphically.
+
+### Key Features:
+
+- Input fields for process details (ID, arrival time, burst time, priority).
+- Buttons to run each scheduling algorithm.
+- Display of Gantt charts for each algorithm.
+- Display of average waiting and turnaround times.
+- Display of the best algorithm based on performance metrics.
 
 ## Conclusion
 This project demonstrates the implementation and comparison of various process scheduling algorithms using both C++ and a Python GUI. The results show that different algorithms have their strengths and weaknesses, and the best algorithm can vary based on the specific requirements and characteristics of the processes.
